@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /*Dividimos os 10px por 16px para saber a porcentagem e garantindo que o usuário aumentando, também irá aumentar as letras de toda a página*/
+    // isso define como 1 rem está relacionado
+}
+
+body {
+    box-sizing: border-box;
+}
